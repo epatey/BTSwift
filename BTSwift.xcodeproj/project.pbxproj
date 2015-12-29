@@ -15,6 +15,8 @@
 		07F145DF1C3242080045D44D /* SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DE1C3242080045D44D /* SequenceType.swift */; };
 		07F145E01C3242080045D44D /* SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DE1C3242080045D44D /* SequenceType.swift */; };
 		07F145E11C32461D0045D44D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07F145C61C3240D10045D44D /* Info.plist */; };
+		07F145EA1C32541A0045D44D /* NSUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145E91C32541A0045D44D /* NSUUID.swift */; };
+		07F145EB1C32541A0045D44D /* NSUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145E91C32541A0045D44D /* NSUUID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		07F145D21C3240D10045D44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F145DB1C3241D50045D44D /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		07F145DE1C3242080045D44D /* SequenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceType.swift; sourceTree = "<group>"; };
+		07F145E91C32541A0045D44D /* NSUUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUUID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 				07F145C61C3240D10045D44D /* Info.plist */,
 				07F145DB1C3241D50045D44D /* Array.swift */,
 				07F145DE1C3242080045D44D /* SequenceType.swift */,
+				07F145E91C32541A0045D44D /* NSUUID.swift */,
 			);
 			path = BTSwift;
 			sourceTree = "<group>";
@@ -205,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F145DF1C3242080045D44D /* SequenceType.swift in Sources */,
+				07F145EA1C32541A0045D44D /* NSUUID.swift in Sources */,
 				07F145DC1C3241D50045D44D /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +221,7 @@
 				07F145D11C3240D10045D44D /* BTSwiftTests.swift in Sources */,
 				07F145DD1C3241D50045D44D /* Array.swift in Sources */,
 				07F145E01C3242080045D44D /* SequenceType.swift in Sources */,
+				07F145EB1C32541A0045D44D /* NSUUID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +402,7 @@
 				07F145D71C3240D10045D44D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07F145D81C3240D10045D44D /* Build configuration list for PBXNativeTarget "BTSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +411,7 @@
 				07F145DA1C3240D10045D44D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

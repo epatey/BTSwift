@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07F145C01C3240D10045D44D"
+               BlueprintIdentifier = "07F146601C32C0C90045D44D"
                BuildableName = "BTSwift.framework"
-               BlueprintName = "BTSwift"
+               BlueprintName = "BTSwift_iOS"
                ReferencedContainer = "container:BTSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07F145CA1C3240D10045D44D"
-               BuildableName = "BTSwiftTests.xctest"
-               BlueprintName = "BTSwiftTests"
-               ReferencedContainer = "container:BTSwift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07F145C01C3240D10045D44D"
-            BuildableName = "BTSwift.framework"
-            BlueprintName = "BTSwift"
-            ReferencedContainer = "container:BTSwift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07F145C01C3240D10045D44D"
+            BlueprintIdentifier = "07F146601C32C0C90045D44D"
             BuildableName = "BTSwift.framework"
-            BlueprintName = "BTSwift"
+            BlueprintName = "BTSwift_iOS"
             ReferencedContainer = "container:BTSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07F145C01C3240D10045D44D"
+            BlueprintIdentifier = "07F146601C32C0C90045D44D"
             BuildableName = "BTSwift.framework"
-            BlueprintName = "BTSwift"
+            BlueprintName = "BTSwift_iOS"
             ReferencedContainer = "container:BTSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

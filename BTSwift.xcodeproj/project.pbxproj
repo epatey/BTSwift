@@ -7,30 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07F145C51C3240D10045D44D /* BTSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F145C41C3240D10045D44D /* BTSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07F145CC1C3240D10045D44D /* BTSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F145C11C3240D10045D44D /* BTSwift.framework */; };
 		07F145D11C3240D10045D44D /* BTSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145D01C3240D10045D44D /* BTSwiftTests.swift */; };
-		07F145DC1C3241D50045D44D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DB1C3241D50045D44D /* Array.swift */; };
 		07F145DD1C3241D50045D44D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DB1C3241D50045D44D /* Array.swift */; };
-		07F145DF1C3242080045D44D /* SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DE1C3242080045D44D /* SequenceType.swift */; };
 		07F145E01C3242080045D44D /* SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DE1C3242080045D44D /* SequenceType.swift */; };
-		07F145E11C32461D0045D44D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07F145C61C3240D10045D44D /* Info.plist */; };
-		07F145EA1C32541A0045D44D /* NSUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145E91C32541A0045D44D /* NSUUID.swift */; };
 		07F145EB1C32541A0045D44D /* NSUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145E91C32541A0045D44D /* NSUUID.swift */; };
+		07F146641C32C0C90045D44D /* BTSwift_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F146631C32C0C90045D44D /* BTSwift_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F146711C32C14E0045D44D /* BTSwift_Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F146701C32C14E0045D44D /* BTSwift_Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F146761C32C1FC0045D44D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DB1C3241D50045D44D /* Array.swift */; };
+		07F146771C32C1FC0045D44D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DB1C3241D50045D44D /* Array.swift */; };
+		07F146781C32C2000045D44D /* SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DE1C3242080045D44D /* SequenceType.swift */; };
+		07F146791C32C2010045D44D /* SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145DE1C3242080045D44D /* SequenceType.swift */; };
+		07F1467A1C32C2030045D44D /* NSUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145E91C32541A0045D44D /* NSUUID.swift */; };
+		07F1467B1C32C2040045D44D /* NSUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F145E91C32541A0045D44D /* NSUUID.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		07F145CD1C3240D10045D44D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F145B81C3240D10045D44D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07F145C01C3240D10045D44D;
-			remoteInfo = BTSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		07F145C11C3240D10045D44D /* BTSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F145C41C3240D10045D44D /* BTSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSwift.h; sourceTree = "<group>"; };
 		07F145C61C3240D10045D44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F145CB1C3240D10045D44D /* BTSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,21 +30,33 @@
 		07F145DB1C3241D50045D44D /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		07F145DE1C3242080045D44D /* SequenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceType.swift; sourceTree = "<group>"; };
 		07F145E91C32541A0045D44D /* NSUUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUUID.swift; sourceTree = "<group>"; };
+		07F146611C32C0C90045D44D /* BTSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F146631C32C0C90045D44D /* BTSwift_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSwift_iOS.h; sourceTree = "<group>"; };
+		07F146651C32C0C90045D44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F1466E1C32C14E0045D44D /* BTSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F146701C32C14E0045D44D /* BTSwift_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSwift_Mac.h; sourceTree = "<group>"; };
+		07F146721C32C14E0045D44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07F145BD1C3240D10045D44D /* Frameworks */ = {
+		07F145C81C3240D10045D44D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		07F145C81C3240D10045D44D /* Frameworks */ = {
+		07F1465D1C32C0C90045D44D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F145CC1C3240D10045D44D /* BTSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F1466A1C32C14E0045D44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +68,8 @@
 			children = (
 				07F145C31C3240D10045D44D /* BTSwift */,
 				07F145CF1C3240D10045D44D /* BTSwiftTests */,
+				07F146621C32C0C90045D44D /* BTSwift_iOS */,
+				07F1466F1C32C14E0045D44D /* BTSwift_Mac */,
 				07F145C21C3240D10045D44D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,8 +77,9 @@
 		07F145C21C3240D10045D44D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07F145C11C3240D10045D44D /* BTSwift.framework */,
 				07F145CB1C3240D10045D44D /* BTSwiftTests.xctest */,
+				07F146611C32C0C90045D44D /* BTSwift.framework */,
+				07F1466E1C32C14E0045D44D /* BTSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,38 +105,46 @@
 			path = BTSwiftTests;
 			sourceTree = "<group>";
 		};
+		07F146621C32C0C90045D44D /* BTSwift_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				07F146631C32C0C90045D44D /* BTSwift_iOS.h */,
+				07F146651C32C0C90045D44D /* Info.plist */,
+			);
+			path = BTSwift_iOS;
+			sourceTree = "<group>";
+		};
+		07F1466F1C32C14E0045D44D /* BTSwift_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				07F146701C32C14E0045D44D /* BTSwift_Mac.h */,
+				07F146721C32C14E0045D44D /* Info.plist */,
+			);
+			path = BTSwift_Mac;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		07F145BE1C3240D10045D44D /* Headers */ = {
+		07F1465E1C32C0C90045D44D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F145C51C3240D10045D44D /* BTSwift.h in Headers */,
+				07F146641C32C0C90045D44D /* BTSwift_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F1466B1C32C14E0045D44D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F146711C32C14E0045D44D /* BTSwift_Mac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		07F145C01C3240D10045D44D /* BTSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07F145D51C3240D10045D44D /* Build configuration list for PBXNativeTarget "BTSwift" */;
-			buildPhases = (
-				07F145BC1C3240D10045D44D /* Sources */,
-				07F145BD1C3240D10045D44D /* Frameworks */,
-				07F145BE1C3240D10045D44D /* Headers */,
-				07F145BF1C3240D10045D44D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BTSwift;
-			productName = BTSwift;
-			productReference = 07F145C11C3240D10045D44D /* BTSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		07F145CA1C3240D10045D44D /* BTSwiftTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07F145D81C3240D10045D44D /* Build configuration list for PBXNativeTarget "BTSwiftTests" */;
@@ -142,12 +156,47 @@
 			buildRules = (
 			);
 			dependencies = (
-				07F145CE1C3240D10045D44D /* PBXTargetDependency */,
 			);
 			name = BTSwiftTests;
 			productName = BTSwiftTests;
 			productReference = 07F145CB1C3240D10045D44D /* BTSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07F146601C32C0C90045D44D /* BTSwift_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F146681C32C0C90045D44D /* Build configuration list for PBXNativeTarget "BTSwift_iOS" */;
+			buildPhases = (
+				07F1465C1C32C0C90045D44D /* Sources */,
+				07F1465D1C32C0C90045D44D /* Frameworks */,
+				07F1465E1C32C0C90045D44D /* Headers */,
+				07F1465F1C32C0C90045D44D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTSwift_iOS;
+			productName = BTSwift_iOS;
+			productReference = 07F146611C32C0C90045D44D /* BTSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		07F1466D1C32C14E0045D44D /* BTSwift_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F146731C32C14E0045D44D /* Build configuration list for PBXNativeTarget "BTSwift_Mac" */;
+			buildPhases = (
+				07F146691C32C14E0045D44D /* Sources */,
+				07F1466A1C32C14E0045D44D /* Frameworks */,
+				07F1466B1C32C14E0045D44D /* Headers */,
+				07F1466C1C32C14E0045D44D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTSwift_Mac;
+			productName = BTSwift_Mac;
+			productReference = 07F1466E1C32C14E0045D44D /* BTSwift.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -159,10 +208,13 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Eric Patey";
 				TargetAttributes = {
-					07F145C01C3240D10045D44D = {
+					07F145CA1C3240D10045D44D = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					07F145CA1C3240D10045D44D = {
+					07F146601C32C0C90045D44D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					07F1466D1C32C14E0045D44D = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -179,22 +231,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07F145C01C3240D10045D44D /* BTSwift */,
 				07F145CA1C3240D10045D44D /* BTSwiftTests */,
+				07F146601C32C0C90045D44D /* BTSwift_iOS */,
+				07F1466D1C32C14E0045D44D /* BTSwift_Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07F145BF1C3240D10045D44D /* Resources */ = {
+		07F145C91C3240D10045D44D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F145E11C32461D0045D44D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		07F145C91C3240D10045D44D /* Resources */ = {
+		07F1465F1C32C0C90045D44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F1466C1C32C14E0045D44D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,16 +263,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07F145BC1C3240D10045D44D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07F145DF1C3242080045D44D /* SequenceType.swift in Sources */,
-				07F145EA1C32541A0045D44D /* NSUUID.swift in Sources */,
-				07F145DC1C3241D50045D44D /* Array.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		07F145C71C3240D10045D44D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,15 +274,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		07F145CE1C3240D10045D44D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 07F145C01C3240D10045D44D /* BTSwift */;
-			targetProxy = 07F145CD1C3240D10045D44D /* PBXContainerItemProxy */;
+		07F1465C1C32C0C90045D44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F146781C32C2000045D44D /* SequenceType.swift in Sources */,
+				07F1467A1C32C2030045D44D /* NSUUID.swift in Sources */,
+				07F146761C32C1FC0045D44D /* Array.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXTargetDependency section */
+		07F146691C32C14E0045D44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F146791C32C2010045D44D /* SequenceType.swift in Sources */,
+				07F1467B1C32C2040045D44D /* NSUUID.swift in Sources */,
+				07F146771C32C1FC0045D44D /* Array.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		07F145D31C3240D10045D44D /* Debug */ = {
@@ -322,45 +383,6 @@
 			};
 			name = Release;
 		};
-		07F145D61C3240D10045D44D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = BTSwift/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bouldertop.BTSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		07F145D71C3240D10045D44D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = BTSwift/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bouldertop.BTSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		07F145D91C3240D10045D44D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -383,6 +405,83 @@
 			};
 			name = Release;
 		};
+		07F146661C32C0C90045D44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BTSwift_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouldertop.BTSwift-iOS";
+				PRODUCT_NAME = BTSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07F146671C32C0C90045D44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BTSwift_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouldertop.BTSwift-iOS";
+				PRODUCT_NAME = BTSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F146741C32C14E0045D44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = BTSwift_Mac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouldertop.BTSwift-Mac";
+				PRODUCT_NAME = BTSwift;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		07F146751C32C14E0045D44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = BTSwift_Mac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouldertop.BTSwift-Mac";
+				PRODUCT_NAME = BTSwift;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -395,15 +494,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07F145D51C3240D10045D44D /* Build configuration list for PBXNativeTarget "BTSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07F145D61C3240D10045D44D /* Debug */,
-				07F145D71C3240D10045D44D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		07F145D81C3240D10045D44D /* Build configuration list for PBXNativeTarget "BTSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -412,6 +502,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		07F146681C32C0C90045D44D /* Build configuration list for PBXNativeTarget "BTSwift_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F146661C32C0C90045D44D /* Debug */,
+				07F146671C32C0C90045D44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07F146731C32C14E0045D44D /* Build configuration list for PBXNativeTarget "BTSwift_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F146741C32C14E0045D44D /* Debug */,
+				07F146751C32C14E0045D44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
